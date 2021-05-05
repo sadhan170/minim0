@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Raleway:wght@300;400;500;700&display=swap');
+
+/**font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #969496;
+}
+header{}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{
+    padding: 15px;
+    display: block;
+}
+.logo a img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ol{
+	overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+}
+nav ol li a{
+	color: #969496;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+nav ol li a:hover{
+	color: #96949694;
+}
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+.article-section{}
+article{
+    padding: 50px;
+}
+ h6{
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 100;
+	}
+ h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+}
+ p{
+    font-size: 18px;
+}
+article a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-decoration: none;
+    color: #969496;
+}
+article a:hover{
+	color: #96949694;
+}
+/*******/
+.post-section{}
+.post{
+    width: 50%;
+    float: left;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.post img{
+    display: block;
+    width: 100%;
+}
+/*******/
+
+footer{
+    background: #dedcde;
+    padding: 30px;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ol{
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ol li{
+    list-style: none;
+    display: inline;
+}
+.footer-menu ol li a{
+    color: #969496;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.footer-menu ol li a:hover{
+	color: #96949694;
+}
+.social-menu{
+    width: 50%;
+    float: left;
+}
+.social-menu ol{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.social-menu ol li{
+    list-style: none;
+    display: initial;
+
+}
+.social-menu ol li a{
+    color: #969496;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+.social-menu ol li a:hover{
+	color: #96949694;
+}
